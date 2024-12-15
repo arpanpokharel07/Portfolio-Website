@@ -2,31 +2,27 @@
 @import url("https://db.onlinewebfonts.com/c/c9f83a2112dba37a28475a67610471d3?family=Corporate+S+W07+Medium");
 
 .header {
-  display: flex;
   background-color: #122620;
-  color: #b68d40;
-  padding-top: 10px;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
   gap: 5px;
   margin-bottom: 10px;
-  justify-content: space-between;
+  align-items: center;
 }
 
 .logo {
-  font-family: "Uncial Antiqua", system-ui;
-  width: 15%;
-  font-size: x-large;
   padding-left: 10px;
+  padding-top: 0px;
 }
 
 .menu-items {
+  color: #b68d40;
+  padding-top: 10px;
   display: flex;
   list-style: none;
   justify-content: space-between;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: larger;
-}
-
-.menu-items {
   padding-left: 0px;
   text-align: center;
   gap: 20px;
@@ -35,7 +31,7 @@
 .menu-items li {
   padding: 5px;
   font-weight: bold;
-  font-size: large;
+  font-size: 1.25rem;
   font-family: "Corporate S W07 Medium";
 }
 
@@ -47,38 +43,81 @@
 
 .resume {
   padding: 0px 15px;
+  justify-self: end;
 }
 
 @media (max-width: 720px) {
   .header {
-    align-items: center;
-    margin-bottom: 2px;
+    padding-bottom: 5px;
+    gap: 2px;
   }
 
   .logo {
-    width: 25%;
-    font-size: 0.8rem;
-    justify-content: left;
+    padding-left: 10px;
+    padding-top: 0px;
+  }
+
+  .logo img {
+    width: 100%;
+    height: 100%;
   }
 
   .menu-items {
     margin-bottom: 0px;
-    gap: 2px;
+    gap: 1px;
   }
 
   .menu-items li {
     font-size: 0.75rem;
-    text-align: center;
   }
 
   .resume {
-    width: 15%;
-    padding: 0px 5px 5px 0px;
+    padding: 5px 5px 5px 0px;
   }
 
   .resume button {
     text-align: center;
-    font-size: x-small;
+    font-size: 0.5rem;
     padding: 0px 0px;
+  }
+}
+
+@media (max-width: 480px) {
+  .header {
+    grid-template-columns: 1fr;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .logo {
+    padding-left: 10px;
+    padding-top: 0px;
+    justify-self: center;
+  }
+
+  .logo img {
+    width: 125%;
+    height: 125%;
+  }
+
+  .menu-items {
+    gap: 1px;
+    flex-direction: column;
+  }
+
+  .menu-items li {
+    font-size: 1.75rem;
+    padding: 8px;
+  }
+
+  .resume {
+    padding: 10px 10px;
+    justify-self: center;
+  }
+
+  .resume button {
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 10px 20px;
   }
 }

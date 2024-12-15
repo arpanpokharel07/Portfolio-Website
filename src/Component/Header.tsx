@@ -5,7 +5,7 @@ function Header() {
   return (
     <div className="header">
       <div className="logo" id="#header">
-        &#123; Arpan Pokharel &#125;
+        <img src="public\images\logo.png" alt="Arpan Pokharel" />
       </div>
 
       <div className="menu">
