@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Uncial+Antiqua&display=swap");
+@import url("https://db.onlinewebfonts.com/c/c9f83a2112dba37a28475a67610471d3?family=Corporate+S+W07+Medium");
+
+.header {
+  display: flex;
+  background-color: #122620;
+  color: #b68d40;
+  padding-top: 10px;
+  gap: 5px;
+  margin-bottom: 10px;
+  justify-content: space-between;
+}
+
+.logo {
+  font-family: "Uncial Antiqua", system-ui;
+  width: 15%;
+  font-size: x-large;
+  padding-left: 10px;
+}
+
+.menu-items {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: larger;
+}
+
+.menu-items {
+  padding-left: 0px;
+  text-align: center;
+  gap: 20px;
+}
+
+.menu-items li {
+  padding: 5px;
+  font-weight: bold;
+  font-size: large;
+  font-family: "Corporate S W07 Medium";
+}
+
+.menu-items li:hover {
+  background-color: white;
+  color: #122620;
+  border-radius: 5%;
+}
+
+.resume {
+  padding: 0px 15px;
+}
+
+@media (max-width: 720px) {
+  .header {
+    align-items: center;
+    margin-bottom: 2px;
+  }
+
+  .logo {
+    width: 25%;
+    font-size: 0.8rem;
+    justify-content: left;
+  }
+
+  .menu-items {
+    margin-bottom: 0px;
+    gap: 2px;
+  }
+
+  .menu-items li {
+    font-size: 0.75rem;
+    text-align: center;
+  }
+
+  .resume {
+    width: 15%;
+    padding: 0px 5px 5px 0px;
+  }
+
+  .resume button {
+    text-align: center;
+    font-size: x-small;
+    padding: 0px 0px;
+  }
+}
