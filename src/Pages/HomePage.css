@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montagu+Slab:opsz,wght@16..144,100..700&family=Uncial+Antiqua&display=swap");
 
-.homepage {
+.home-page {
   background-color: #122620;
   padding: 0;
   margin: 0;
@@ -43,13 +43,20 @@
   font-size: 120px;
   padding: 0;
   margin: 0;
-  align-self: self-start;
+  font-weight: bolder;
+  align-self: center;
   color: wheat;
 }
 
 .description {
-  font-size: 40px;
+  font-size: 35px;
   margin: 0;
+  padding: 0;
+  align-self: center;
+}
+
+.me {
+  font-size: 35px;
   padding: 0;
   align-self: self-start;
 }

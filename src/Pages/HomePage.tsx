@@ -10,7 +10,7 @@ const images = [
 
 const HomePage = () => {
   return (
-    <div className="homepage">
+    <div className="home-page">
       <main className="main-page">
         <div className="photo">
           <ImageSlider imageURLs={images}></ImageSlider>
@@ -20,13 +20,13 @@ const HomePage = () => {
           </div>
         </div>
         <section className="main-page-info">
-          <div className="heading">Full-Stack, and Software Developer</div>
+          <div className="heading">Full-Stack and Software Developer</div>
           <h2 className="title"> YOUR VISION, MY CODE</h2>
           <p className="description">
-            Hi, I’m Arpan Pokharel, based in Waterloo, Ontario. Using modern
-            programming technologies, my work focuses on delivering clean and
-            reliable solutions tailored to specific needs.
+            Using well-known programming technologies, I deliver clean and
+            reliable solutions tailored to your specific needs.
           </p>
+          <p className="me">Hello, I am Arpan </p>
         </section>
       </main>
     </div>

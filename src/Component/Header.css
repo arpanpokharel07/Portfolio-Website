@@ -49,8 +49,6 @@
   padding: 0px 10px;
   display: flex;
   justify-content: space-around;
-  position: relative;
-  top: -20px;
 }
 
 @media (max-width: 720px) {
