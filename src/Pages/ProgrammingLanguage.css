@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Montagu+Slab:opsz,wght@16..144,100..700&family=Uncial+Antiqua&display=swap");
+
+.programming-language {
+  background-color: #122620;
+  color: #b68d40;
+  padding: 10px 0px 40px 0px;
+}
+
+.programming-language h1 {
+  font-size: 3.5rem;
+  text-align: center;
+  margin: 40px 0px;
+  font-family: "Montagu Slab", serif;
+  text-decoration: underline white;
+}
+
+.program {
+  display: grid;
+  margin: 0 25vw;
+  grid-template-columns: repeat(7, 230px);
+  gap: 10px;
+  justify-content: center;
+  align-content: center;
+}
+
+.program-item {
+  width: 12vw;
+  height: 22vh;
+  border-radius: 40px;
+  background: rgba(255, 255, 225);
+}
+
+.program-item-wrap {
+  margin: 0px 25%;
+}
+
+.program-img {
+  width: 6vw;
+  height: 10vh;
+}
+
+.program-text {
+  text-align: center;
+  font-size: 1.75rem;
+  padding-top: 30px;
+  color: #122620;
+}

@@ -2,9 +2,9 @@ import "./Footer.css";
 
 const Footer = () => {
   return (
-    <div className="footer">
+    <div className="footer" id="footer">
       <div className="footer-image">
-        <img src="public\media\footer-image.png" alt="Footer" />
+        <img src="public\media\images\footer-image.png" alt="Footer" />
       </div>
       <div className="footer-quick-links">
         <h3>Quick Links</h3>

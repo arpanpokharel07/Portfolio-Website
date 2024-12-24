@@ -2,15 +2,19 @@ import "./AboutMe.css";
 
 function AboutMe() {
   return (
-    <div className="about-me">
+    <div className="about-me" id="about-me">
       <div className="background-video">
         {/* Add a video about a person coding in the background at z-index -1 */}
-        <video src="\media\about-me-background.mp4" autoPlay loop muted />
+        <video src="\media\video\about-me-background.mp4" autoPlay loop muted />
       </div>
       <div className="aboutMe-main-info">
         {/* Add an information section about how I am and my coding journey */}
         <h1>Elevate Your Software: Find Exquisite Solutions with Me</h1>
-        <img src="/media/arpan-laptop.png" alt="Arpan pokharel" width={400} />
+        <img
+          src="/media/images/arpan-laptop.png"
+          alt="Arpan pokharel"
+          width={400}
+        />
         <caption>Meet Your Programmer</caption>
         <h3>
           I’m a developer skilled in building efficient solutions with MERN

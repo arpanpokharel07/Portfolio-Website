@@ -3,14 +3,14 @@ import ImageSlider from "../Component/ImageSlider";
 import * as Icons from "react-bootstrap-icons";
 
 const images = [
-  "./public/media/arpan-lake.png",
-  "./public/media/arpan-park.png",
-  "./public/media/arpan-traditional.png",
+  "./public/media/images/arpan-lake.png",
+  "./public/media/images/arpan-park.png",
+  "./public/media/images/arpan-traditional.png",
 ];
 
 const HomePage = () => {
   return (
-    <div className="home-page">
+    <div className="home-page" id="home-page">
       <main className="main-page">
         <div className="photo">
           <ImageSlider imageURLs={images}></ImageSlider>
