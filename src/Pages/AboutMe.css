@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montagu+Slab:opsz,wght@16..144,100..700&family=Uncial+Antiqua&display=swap");
 
 .about-me {
-  background-color: #122620;
+  /* background-color: #122620; */
   padding: 0;
   margin: 0;
   color: #b68d40;
@@ -13,7 +13,7 @@
 }
 
 video {
-  object-fit: fill;
+  object-fit: cover;
   filter: blur(7px);
   object-fit: cover;
   transform: scale(1.04);
@@ -23,13 +23,12 @@ video {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   border-radius: 50px;
   margin: 25px 25vw;
-  padding: 5px 20px 0px 25px;
+  padding: 25px;
   background-color: rgb(18, 38, 32, 0.75);
   position: absolute;
-  top: 110vh;
+  top: 115vh;
 }
 
 .aboutMe-main-info h1 {
@@ -37,14 +36,19 @@ video {
 }
 
 .aboutMe-main-info h3 {
-  font-size: 1.5em;
-  padding-bottom: 1.25vh;
+  font-size: 1.95em;
+  padding-bottom: 3.5vh;
 }
 
 .about-me-column {
   display: flex;
   flex-direction: row;
   gap: 15px;
+}
+
+.about-me-column-first p,
+.about-me-column-second p {
+  font: 1.12rem;
 }
 
 caption {

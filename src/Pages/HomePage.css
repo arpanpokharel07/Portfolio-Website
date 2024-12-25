@@ -13,7 +13,6 @@
 }
 .photo {
   display: flex;
-  max-width: 35rem;
   align-items: center;
   justify-content: center;
 }
@@ -26,37 +25,49 @@
 .main-page-info {
   color: #b68d40;
   display: grid;
-  align-items: center;
-  justify-content: center;
   font-family: "Montagu Slab", serif;
-  word-wrap: break-word;
 }
 
 .heading {
-  font-size: 30px;
-  padding: 0;
-  margin: 0;
-  align-self: self-end;
+  font-size: 1.9rem;
+  align-self: flex-end;
 }
 
-.main-page-info h2 {
-  font-size: 120px;
+.title {
+  font-size: 6.4rem;
   padding: 0;
   margin: 0;
+  line-height: 7rem;
   font-weight: bolder;
   align-self: center;
   color: wheat;
+  align-self: self-start;
 }
 
 .description {
-  font-size: 35px;
-  margin: 0;
-  padding: 0;
-  align-self: center;
+  font-size: 2rem;
+  align-self: flex-end;
 }
 
 .me {
   font-size: 35px;
-  padding: 0;
-  align-self: self-start;
+  align-self: start;
+}
+
+.imageslider {
+  align-items: center;
+  justify-content: center;
+}
+
+.images {
+  display: flex;
+  width: 125%;
+  height: 125%;
+}
+
+.slider {
+  position: absolute;
+  background-color: azure;
+  display: flex;
+  justify-content: center;
 }

@@ -16,11 +16,9 @@
 
 .program {
   display: grid;
-  margin: 0 25vw;
-  grid-template-columns: repeat(7, 230px);
+  grid-template-columns: repeat(7, 180px);
   gap: 10px;
   justify-content: center;
-  align-content: center;
 }
 
 .program-item {
@@ -28,6 +26,7 @@
   height: 22vh;
   border-radius: 40px;
   background: rgba(255, 255, 225);
+  transition: transform 0.25s ease-in-out;
 }
 
 .program-item-wrap {
@@ -37,11 +36,18 @@
 .program-img {
   width: 6vw;
   height: 10vh;
+  transition: transform 0.5s ease-in-out;
 }
 
+.program-item:hover {
+  transform: scale(1.1);
+  .program-img {
+    transform: scale(1.25);
+  }
+}
 .program-text {
   text-align: center;
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   padding-top: 30px;
   color: #122620;
 }

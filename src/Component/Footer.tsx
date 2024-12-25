@@ -33,22 +33,22 @@ const Footer = () => {
         <h3>Connect with Me</h3>
         <ul>
           <li>
-            <a href="">Facebook</a>
+            <a href="https://www.facebook.com/arpan.pokharel4/">Facebook</a>
           </li>
           <li>
-            <a href="ss">Instagram</a>
+            <a href="https://www.instagram.com/arpan.pokharel/">Instagram</a>
           </li>
           <li>
-            <a href="ss">LinkedIn</a>
+            <a href="https://www.linkedin.com/in/arpan-pokharel/">LinkedIn</a>
           </li>
           <li>
-            <a href="ss">GitHub</a>
+            <a href="https://github.com/arpanpokharel07">GitHub</a>
           </li>
           <li>
-            <a href="ss">LeetCode</a>
+            <a href="https://leetcode.com/u/arpanpokharel07/">LeetCode</a>
           </li>
           <li>
-            <a href="ss">Email</a>
+            <a href="mailto:arpanpokharel07@gmail.com">Email</a>
           </li>
         </ul>
       </div>
