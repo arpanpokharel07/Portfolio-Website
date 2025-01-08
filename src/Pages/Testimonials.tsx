@@ -1,44 +1,44 @@
 import IndividualTestimony from "../Component/IndividualTestimony";
-
+import "./Testimonials.css";
 const Testimonials = () => {
   return (
-    <div className="tesimonials" id="tesimonials">
+    <div className="testimonials" id="testimonials">
       <h1>Testimonials</h1>
       <div className="testimonials-wrapper">
         <div className="testimonial-list">
           <IndividualTestimony
-            image="First Testimonial"
+            image="public/media/images/arpan-laptop.png"
             name="Arpan Pokharel"
-            testimony=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, neque. Neque alias assumenda ratione suscipit sapiente ipsa corporis culpa placeat?"
             star={5}
+            testimony=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, neque. Neque alias assumenda ratione suscipit sapiente ipsa corporis culpa adipisicing elit. Totam, neque. Neque alias assumenda ratione suscipit sapiente ipsa corporis culpa placeat?"
           ></IndividualTestimony>
 
           <IndividualTestimony
-            image="Second Testimonial"
+            image="public/media/images/arpan-laptop.png"
             name="Arpan Pokharel"
-            testimony=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, neque. Neque alias assumenda ratione suscipit sapiente ipsa corporis culpa placeat?"
-            star={5}
+            testimony=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, neque. Neque alias assumenda ratione suscipit sapiente ipsa corporis culpa adipisicing elit. Totam, neque. Neque alias assumenda ratione suscipit sapiente ipsa corporis culpa placeat?"
+            star={4}
           ></IndividualTestimony>
 
           <IndividualTestimony
-            image="Third Testimonial"
+            image="public/media/images/arpan-laptop.png"
             name="Arpan Pokharel"
-            testimony=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, neque. Neque alias assumenda ratione suscipit sapiente ipsa corporis culpa placeat?"
-            star={5}
+            testimony=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, neque. Neque alias assumenda ratione suscipit sapiente ipsa corporis culpa adipisicing elit. Totam, neque. Neque alias assumenda ratione suscipit sapiente ipsa corporis culpa placeat?"
+            star={4}
           ></IndividualTestimony>
 
           <IndividualTestimony
-            image="Fourth Testimonial"
+            image="public/media/images/arpan-laptop.png"
             name="Arpan Pokharel"
-            testimony=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, neque. Neque alias assumenda ratione suscipit sapiente ipsa corporis culpa placeat?"
-            star={5}
+            testimony=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, neque. Neque alias assumenda ratione suscipit sapiente ipsa corporis culpa adipisicing elit. Totam, neque. Neque alias assumenda ratione suscipit sapiente ipsa corporis culpa placeat?"
+            star={2}
           ></IndividualTestimony>
 
           <IndividualTestimony
-            image="Fifth Testimonial"
+            image="public/media/images/arpan-laptop.png"
             name="Arpan Pokharel"
-            testimony=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, neque. Neque alias assumenda ratione suscipit sapiente ipsa corporis culpa placeat?"
-            star={5}
+            testimony=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, neque. Neque alias assumenda ratione suscipit sapiente ipsa corporis culpa adipisicing elit. Totam, neque. Neque alias assumenda ratione suscipit sapiente ipsa corporis culpa placeat?"
+            star={1}
           ></IndividualTestimony>
         </div>
       </div>

@@ -1,0 +1,51 @@
+.testimonials {
+  padding: 0;
+  margin: 0;
+  background-color: #122620;
+  color: #b68d40;
+}
+
+.testimonials h1 {
+  font-size: 3.5rem;
+  text-align: center;
+  margin: 40px 0px;
+  font-family: "Montagu Slab", serif;
+  text-decoration: underline white;
+}
+
+.testimonials-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.testimonial-list {
+  display: grid;
+  gap: 25px;
+  grid-template-columns: repeat(3, 25vw);
+}
+
+.testimony-header img {
+  border-radius: 50%;
+}
+
+.testimony-header {
+  display: grid;
+  grid-template-columns: repeat(3, 8vw);
+  align-items: center;
+}
+
+.individual-testimony {
+  border: 2px solid black;
+  padding: 5px;
+  align-items: center;
+}
+
+.individual-name {
+  font-size: 1.45em;
+}
+
+.testimony-stars {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
