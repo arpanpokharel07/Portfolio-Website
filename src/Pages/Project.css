@@ -1,0 +1,68 @@
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+
+.projects {
+  padding: 0;
+  margin: 0;
+  width: 3/4;
+  background-color: #122620;
+}
+
+.projects h1 {
+  font-size: 3.5rem;
+  text-align: center;
+  /* margin: 40px 0px; */
+  font-family: "Montagu Slab", serif;
+  text-decoration: underline white;
+  color: #dda15e;
+}
+
+.project-wrapper {
+  margin: 0% 10%;
+}
+
+.project-list {
+  gap: 25px;
+  justify-content: center;
+}
+
+.individual-project-item {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  gap: 20px;
+  border-radius: 5%;
+  background-color: #ffffff;
+}
+
+.individual-project-item:hover {
+  transform: scale(1.05);
+}
+
+.project-images {
+  border-radius: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid red; */
+}
+
+.individual-project-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 4px;
+  color: #dda15e;
+}
+
+.individual-project-info h4 {
+  font-size: x-large;
+  font-weight: bold;
+  color: #bc6c25;
+}
+
+.slick-slide > div {
+  margin: 0px 15px;
+}

@@ -1,4 +1,5 @@
 import SingleService from "../Component/SingleService";
+import "./Services.css";
 
 const Services = () => {
   return (

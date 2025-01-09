@@ -1,6 +1,6 @@
 .footer {
   background-color: rgb(55, 55, 55);
-  color: wheat;
+  color: #FEFAE0;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -9,7 +9,7 @@
 }
 
 .footer-image {
-  background-color: wheat;
+  background-color: #FEFAE0;
   margin: 20px;
   border-radius: 5%;
   margin-left: 5vw;
@@ -44,7 +44,7 @@ ul {
 
 a {
   text-decoration: none;
-  color: white;
+  color: #606c38;
 }
 
 .copyright {

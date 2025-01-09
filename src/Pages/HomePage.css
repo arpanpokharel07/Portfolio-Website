@@ -23,7 +23,7 @@
 }
 
 .main-page-info {
-  color: #b68d40;
+  color: #dda15e;
   display: grid;
   font-family: "Montagu Slab", serif;
 }
@@ -40,7 +40,7 @@
   line-height: 7rem;
   font-weight: bolder;
   align-self: center;
-  color: wheat;
+  color: #fefae0;
   align-self: self-start;
 }
 

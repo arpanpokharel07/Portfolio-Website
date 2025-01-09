@@ -7,11 +7,7 @@ type UserProps = {
 };
 
 const UserInfo = (props: UserProps) => {
-  return (
-    <div>
-     
-    </div>
-  );
+  return <div></div>;
 };
 
 export default UserInfo;

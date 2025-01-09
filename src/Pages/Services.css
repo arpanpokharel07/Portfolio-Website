@@ -1,0 +1,27 @@
+.services {
+  padding: 0;
+  margin: 0;
+  background-color: #122620;
+  color: #DDA15E;
+  padding-bottom: 40px;
+}
+
+.services h1 {
+  font-size: 3.5rem;
+  text-align: center;
+  margin: 0px 0px 40px 0px;
+  font-family: "Montagu Slab", serif;
+  text-decoration: underline white;
+  background-color: #122620;
+}
+
+.services-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.service-list {
+  display: grid;
+  gap: 25px;
+  grid-template-columns: repeat(3, 25vw);
+}

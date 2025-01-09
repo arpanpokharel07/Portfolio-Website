@@ -8,7 +8,9 @@ const SingleProject = (props: ProjectProps) => {
   return (
     <div className="individual-project">
       <div className="individual-project-item">
-        <img src={props.images} alt={props.title} />
+        <div className="project-images">
+          <img src={props.images} alt={props.title} height={400} width={400} />
+        </div>
         <div className="individual-project-info">
           <h4>{props.title}</h4>
           <p>{props.description}</p>

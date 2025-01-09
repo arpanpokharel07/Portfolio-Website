@@ -15,12 +15,12 @@
   padding-left: 10px;
   padding-top: 0px;
   font-family: "Vintage Rotter Personal Use", sans-serif;
-  color: #b68d40;
+  color: #DDA15E;
   font-size: 3rem;
 }
 
 .menu-items {
-  color: #b68d40;
+  color: #DDA15E;
   padding-top: 10px;
   display: flex;
   list-style: none;
@@ -40,7 +40,7 @@
 }
 
 .menu-items li:hover {
-  background-color: white;
+  background-color: #FEFAE0;
   color: #122620;
   border-radius: 5%;
 }
