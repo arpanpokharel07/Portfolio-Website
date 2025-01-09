@@ -11,7 +11,6 @@
 .projects h1 {
   font-size: 3.5rem;
   text-align: center;
-  /* margin: 40px 0px; */
   font-family: "Montagu Slab", serif;
   text-decoration: underline white;
   color: #dda15e;
@@ -29,10 +28,12 @@
 .individual-project-item {
   display: flex;
   flex-direction: column;
-  padding: 10px;
+  padding: 25px;
   gap: 20px;
   border-radius: 5%;
   background-color: #ffffff;
+  justify-content: center;
+  align-items: center;
 }
 
 .individual-project-item:hover {
@@ -44,7 +45,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  /* border: 1px solid red; */
 }
 
 .individual-project-info {
@@ -55,14 +55,34 @@
   gap: 10px;
   padding: 4px;
   color: #dda15e;
+  /* Change font family */
+  font-size: 1.3rem;
 }
 
 .individual-project-info h4 {
-  font-size: x-large;
+  font-size: 1.75rem;
   font-weight: bold;
   color: #bc6c25;
+  margin-bottom: 0px;
+  padding-bottom: 0;
+  /* Change font family */
+}
+.individual-project-info span {
+  font-size: 1.05rem;
 }
 
 .slick-slide > div {
   margin: 0px 15px;
+}
+
+.detailed-info button {
+  background-color: #122620;
+  border-radius: 10px;
+}
+
+.detailed-info a {
+  color: #ffffff;
+  font-size: 1.25em;
+  /* Change font family */
+  font-family: "Times New Roman", Times, serif;
 }

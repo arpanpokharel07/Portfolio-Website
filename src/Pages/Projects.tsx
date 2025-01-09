@@ -23,32 +23,42 @@ const Projects = () => {
           <Slider {...settings}>
             <SingleProject
               images="public\media\images\arpan-lake.png"
-              title="first title"
+              title="First title"
+              subheading="Four word project description"
               description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium porro soluta facere aperiam iusto pariatur officiis distinctio tempore odit necessitatibus?"
+              info="http://github.com/"
             ></SingleProject>
 
             <SingleProject
               images="public\media\images\arpan-lake.png"
               title="Second title"
+              subheading="Four word project description"
               description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium porro soluta facere aperiam iusto pariatur officiis distinctio tempore odit necessitatibus?"
+              info="http://github.com/"
             ></SingleProject>
 
             <SingleProject
               images="public\media\images\arpan-lake.png"
               title="Third title"
+              subheading="Four word project description"
               description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium porro soluta facere aperiam iusto pariatur officiis distinctio tempore odit necessitatibus?"
+              info="http://github.com/"
             ></SingleProject>
 
             <SingleProject
               images="public\media\images\arpan-lake.png"
               title="Fourth title"
+              subheading="Four word project description"
               description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium porro soluta facere aperiam iusto pariatur officiis distinctio tempore odit necessitatibus?"
+              info="http://github.com/"
             ></SingleProject>
 
             <SingleProject
               images="public\media\images\arpan-lake.png"
               title="Fifth title"
+              subheading="Four word project description"
               description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium porro soluta facere aperiam iusto pariatur officiis distinctio tempore odit necessitatibus?"
+              info="http://github.com/"
             ></SingleProject>
           </Slider>
         </div>
