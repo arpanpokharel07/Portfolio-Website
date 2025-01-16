@@ -6,6 +6,7 @@
   margin: 0;
   width: 3/4;
   background-color: #122620;
+  padding-bottom: 40px;
 }
 
 .projects h1 {
@@ -31,7 +32,7 @@
   padding: 25px;
   gap: 20px;
   border-radius: 5%;
-  background-color: #ffffff;
+  background-color: #fefae0;
   justify-content: center;
   align-items: center;
 }

@@ -1,5 +1,5 @@
 import SingleProject from "../Component/SingleProject";
-import "./Project.css";
+import "./Projects.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
@@ -10,8 +10,8 @@ const Projects = () => {
   const settings = {
     dots: true,
     infinite: true,
-    speed: 200,
-    slidesToShow: 3,
+    speed: 500,
+    slidesToShow: 2,
     slidesToScroll: 1,
   };
 
