@@ -35,6 +35,12 @@ const ProgrammingLanguage = () => {
               text="Bootstrap"
               label="Bootstrap"
             />
+            <Program
+              src="\media\logos\postgresql.png"
+              text="PostgreSQL"
+              label="PostgreSQL"
+            />
+            <Program src="\media\logos\mysql.png" text="MySQL" label="MySQL" />
 
             <Program
               src="\media\logos\mongodb.png"
@@ -52,12 +58,6 @@ const ProgrammingLanguage = () => {
               text="Node.js"
               label="Node.js"
             />
-            <Program
-              src="\media\logos\postgresql.png"
-              text="PostgreSQL"
-              label="PostgreSQL"
-            />
-            <Program src="\media\logos\mysql.png" text="MySQL" label="MySQL" />
             <Program src="\media\logos\git.png" text="Git" label="Git" />
 
             <Program src="\media\logos\c.png" text="C" label="C" />
