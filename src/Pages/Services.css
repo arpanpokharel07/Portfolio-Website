@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0;
   background-color: #122620;
-  color: #DDA15E;
+  color: #dda15e;
   padding-bottom: 40px;
 }
 
@@ -22,6 +22,20 @@
 
 .service-list {
   display: grid;
-  gap: 25px;
-  grid-template-columns: repeat(3, 25vw);
+  gap: 40px;
+  grid-template-columns: repeat(2, 40vw);
+  justify-items: center;
+}
+
+.single-service .info {
+  margin: 5% 10% 0% 0%;
+  padding: 0% 10%;
+}
+
+.single-service p {
+  margin-top: 5%;
+  font-size: 1.5rem;
+}
+.single-service h4 {
+  font-size: 2.5rem;
 }
