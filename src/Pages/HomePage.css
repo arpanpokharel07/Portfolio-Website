@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Montagu+Slab:opsz,wght@16..144,100..700&family=Uncial+Antiqua&display=swap");
+
+.home-page {
+  background-color: #122620;
+  padding: 0;
+  margin: 0;
+}
+
+.main-page {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 100vh;
+}
+.photo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.photo img {
+  width: 70vh;
+  height: 80vh;
+}
+
+.main-page-info {
+  color: #dda15e;
+  display: grid;
+  font-family: "Montagu Slab", serif;
+}
+
+.heading {
+  font-size: 1.9rem;
+  align-self: flex-end;
+}
+
+.title {
+  font-size: 6.4rem;
+  padding: 0;
+  margin: 0;
+  line-height: 7rem;
+  font-weight: bolder;
+  align-self: center;
+  color: #fefae0;
+  align-self: self-start;
+}
+
+.description {
+  font-size: 2rem;
+  align-self: flex-end;
+}
+
+.me {
+  font-size: 35px;
+  align-self: start;
+}
+
+.imageslider {
+  align-items: center;
+  justify-content: center;
+}
+
+.images {
+  display: flex;
+  width: 125%;
+  height: 125%;
+}
+
+.slider {
+  position: absolute;
+  background-color: azure;
+  display: flex;
+  justify-content: center;
+}
+.dot-container {
+  display: flex;
+  justify-content: center;
+}
+
+.dot {
+  height: 20px;
+  width: 20px;
+  margin: 0 2px;
+  background-color: #fefefe;
+  border-radius: 50%;
+}
+
+.active,
+.dot:hover {
+  background-color: #717171;
+}
