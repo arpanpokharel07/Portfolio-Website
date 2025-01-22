@@ -7,6 +7,8 @@ import Services from "./Pages/Services";
 import Testimonials from "./Pages/Testimonials";
 import ContactMe from "./Pages/ContactMe";
 import Footer from "./Component/Footer";
+import Experience from "./Pages/Experience";
+import Education from "./Pages/Education";
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
       <AboutMe></AboutMe>
       <ProgrammingLanguage></ProgrammingLanguage>
       <Projects></Projects>
+      <Experience></Experience>
+      <Education></Education>
       <Services></Services>
       <Testimonials></Testimonials>
       <ContactMe></ContactMe>
