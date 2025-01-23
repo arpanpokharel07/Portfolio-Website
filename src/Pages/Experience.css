@@ -41,9 +41,18 @@
 
 .startYear {
   position: relative;
-  top: 0vh;
+  top: 30vh;
 }
 .endYear {
   position: relative;
-  top: 18.5vh;
+  top: 0vh;
+}
+
+.job-header {
+  position: relative;
+  margin-left: 15%;
+  margin-top: 10%;
+  align-self: center;
+  justify-self: start;
+  font-size: 3rem;
 }
