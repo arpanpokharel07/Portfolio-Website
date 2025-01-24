@@ -3,7 +3,7 @@ import "./ProgrammingLanguage.css";
 
 const ProgrammingLanguage = () => {
   return (
-    <div className="programming-language">
+    <div className="programming-language" id="programming-language">
       <h1>Programming Skills I Have Experience In</h1>
       <div className="program-list">
         <div className="program-wrap">

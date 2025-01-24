@@ -3,10 +3,8 @@ import * as Icons from "react-bootstrap-icons";
 
 function Header() {
   return (
-    <div className="header">
-      <div className="logo" id="#header">
-       Arpan Pokharel
-      </div>
+    <div className="header" id="header">
+      <div className="logo">Arpan Pokharel</div>
 
       <div className="menu">
         <ul className="menu-items">

@@ -10,19 +10,22 @@ const Footer = () => {
         <h3>Quick Links</h3>
         <ul>
           <li>
+            <a href="#header">Home</a>
+          </li>
+          <li>
             <a href="#about-me">About Me</a>
           </li>
           <li>
             <a href="#programming-language">Programming Language</a>
           </li>
           <li>
-            <a href="#project">Project</a>
-          </li>
-          <li>
-            <a href="#education">Education</a>
+            <a href="#projects">Project</a>
           </li>
           <li>
             <a href="#experience">Experience</a>
+          </li>
+          <li>
+            <a href="#services">Service</a>
           </li>
           <li>
             <a href="#contact-me">Contact Me</a>
@@ -30,7 +33,7 @@ const Footer = () => {
         </ul>
       </div>
       <div className="connect-with-me">
-        <h3>Connect with Me</h3>
+        <h3>Find Me</h3>
         <ul>
           <li>
             <a href="https://www.facebook.com/arpan.pokharel4/">Facebook</a>
