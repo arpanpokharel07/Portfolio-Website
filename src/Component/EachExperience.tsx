@@ -11,17 +11,17 @@ const EachExperience = (props: EachExperienceProps) => {
   return (
     <div className="each-experience">
       <div className="bullet"></div>
-      <div className="timeline">
-        <div className="endYear">{props.endYear}</div>
-        <div className="startYear"> {props.startYear}</div>
-      </div>
+      <h6 className="timeline-date">
+        {props.startYear} - {props.endYear}
+      </h6>
       <div className="job-header">
-        <div className="job-title">{props.jobTitle}</div>
-        <div className="company">{props.companyName}</div>
-        <div className="location">{props.Location}</div>
+        <h4 className="job-title">{props.jobTitle}</h4>
+        <h5 className="company">
+          {props.companyName}
+          <span className="location">in {props.Location}</span>
+        </h5>
       </div>
-      <div className="description">
-        Duties and Responsibility
+      <div className="job-description">
         <ul>
           <li>{props.description[0]}</li>
           <li>{props.description[1]}</li>

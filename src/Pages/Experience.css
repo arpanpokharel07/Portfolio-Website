@@ -1,9 +1,8 @@
 .experience {
-  padding: 0;
-  margin: 0;
-  background-color: #122620;
   color: #dda15e;
   padding-bottom: 40px;
+  background-color: #122620;
+  padding: 30px 15px;
 }
 
 .experience h1 {
@@ -15,44 +14,57 @@
   background-color: #122620;
 }
 
-.experience .bullet {
-  background-color: wheat;
-  width: 35px;
-  height: 35px;
-  border-radius: 50%;
+.each-experience {
   position: relative;
-  left: 50%;
-  border: 2px solid black;
-  padding: 5px;
+  padding-left: 75px;
+  padding-bottom: 30px;
 }
 
-.experience .description {
-  font-size: 1rem;
-  position: relative;
-  left: 60%;
+.experience-wrapper {
+  margin: 0px 25%;
+  padding-top: 25px;
+  box-shadow: 0 0 30px rgba(15, 67, 22, 0.75);
+  border: 1px solid gray;
+  border-radius: 10px;
 }
 
-.timeline {
-  display: grid;
+.experience-wrapper:last-child {
+  padding-bottom: 0;
+}
+
+.each-experience:last-child::before {
+  content: "";
+  width: 1px;
   position: absolute;
-  gap: 100%;
-  left: 50%;
+  height: 80%;
+  left: 20px;
+  background-color: #fefae0;
 }
 
-.startYear {
-  position: relative;
-  top: 30vh;
-}
-.endYear {
-  position: relative;
-  top: 0vh;
+.each-experience::before {
+  content: "";
+  width: 1px;
+  position: absolute;
+  height: 100%;
+  left: 20px;
+  margin-left: 10px;
+  background-color: #fefae0;
 }
 
-.job-header {
-  position: relative;
-  margin-left: 15%;
-  margin-top: 10%;
-  align-self: center;
-  justify-self: start;
-  font-size: 3rem;
+.each-experience h3 {
+  text-align: left;
+}
+
+.each-experience .bullet {
+  position: absolute;
+  left: 15px;
+  top: 0;
+  height: 30px;
+  width: 30px;
+  background-color: #fefae0;
+  border-radius: 50%;
+}
+
+.each-experience .job-header .company .location {
+  color: #fefae0;
 }
