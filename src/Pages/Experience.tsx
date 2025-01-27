@@ -1,4 +1,5 @@
 import EachExperience from "../Component/EachExperience";
+import Header from "../Component/Header";
 import "./Experience.css";
 
 const description = [
@@ -10,37 +11,40 @@ const description = [
 
 const Experience = () => {
   return (
-    <div className="experience" id="experience">
-      <h1>Experience</h1>
-      <div className="experience-wrapper">
-        <EachExperience
-          startYear="Sept 2024"
-          endYear="Dec 2024"
-          jobTitle="Software Developer Intern"
-          companyName="GrayScale Private Ltd."
-          Location="Waterloo, ON"
-          description={description}
-        ></EachExperience>
+    <>
+      <Header></Header>
+      <div className="experience" id="experience">
+        <h1>Experience</h1>
+        <div className="experience-wrapper">
+          <EachExperience
+            startYear="Sept 2024"
+            endYear="Dec 2024"
+            jobTitle="Software Developer Intern"
+            companyName="GrayScale Private Ltd."
+            Location="Waterloo, ON"
+            description={description}
+          ></EachExperience>
 
-        <EachExperience
-          startYear="May 2023"
-          endYear="Sept 2024"
-          jobTitle="Security Guard"
-          companyName="ASG Security Group Ltd."
-          Location="Toronto, ON"
-          description={description}
-        ></EachExperience>
+          <EachExperience
+            startYear="May 2023"
+            endYear="Sept 2024"
+            jobTitle="Security Guard"
+            companyName="ASG Security Group Ltd."
+            Location="Toronto, ON"
+            description={description}
+          ></EachExperience>
 
-        <EachExperience
-          startYear="Sept 2022"
-          endYear="April 2023"
-          jobTitle="Cook"
-          companyName="Church's Texas Chicken"
-          Location="Waterloo, ON"
-          description={description}
-        ></EachExperience>
+          <EachExperience
+            startYear="Sept 2022"
+            endYear="April 2023"
+            jobTitle="Cook"
+            companyName="Church's Texas Chicken"
+            Location="Waterloo, ON"
+            description={description}
+          ></EachExperience>
+        </div>
       </div>
-    </div>
+    </>
   );
 };
 

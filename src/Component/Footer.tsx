@@ -13,22 +13,22 @@ const Footer = () => {
             <a href="#header">Home</a>
           </li>
           <li>
-            <a href="#about-me">About Me</a>
+            <a href="about-me">About Me</a>
           </li>
           <li>
-            <a href="#programming-language">Programming Language</a>
+            <a href="programming-language">Programming Language</a>
           </li>
           <li>
-            <a href="#projects">Project</a>
+            <a href="projects">Project</a>
           </li>
           <li>
-            <a href="#experience">Experience</a>
+            <a href="experience">Experience</a>
           </li>
           <li>
-            <a href="#services">Service</a>
+            <a href="services">Service</a>
           </li>
           <li>
-            <a href="#contact-me">Contact Me</a>
+            <a href="contact-me">Contact Me</a>
           </li>
         </ul>
       </div>

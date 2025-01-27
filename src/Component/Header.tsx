@@ -4,16 +4,30 @@ import * as Icons from "react-bootstrap-icons";
 function Header() {
   return (
     <div className="header" id="header">
-      <div className="logo">Arpan Pokharel</div>
+      <div className="logo">
+        <a href="/">Arpan Pokharel</a>
+      </div>
 
       <div className="menu">
         <ul className="menu-items">
-          <li>ABOUT ME</li>
-          <li>PROGRAMMING LANGUAGE</li>
-          <li>PROJECT</li>
-          <li>EDUCATION</li>
-          <li>EXPERIENCE</li>
-          <li>CONTACT ME</li>
+          <li>
+            <a href="about-me">ABOUT ME</a>
+          </li>
+          <li>
+            <a href="programming-languages">PROGRAMMING LANGUAGE</a>
+          </li>
+          <li>
+            <a href="projects">PROJECTS</a>
+          </li>
+          <li>
+            <a href="experience">EXPERIENCE</a>
+          </li>
+          <li>
+            <a href="services">SERVICES</a>
+          </li>
+          <li>
+            <a href="contact-me">CONTACT ME</a>
+          </li>
         </ul>
       </div>
 
