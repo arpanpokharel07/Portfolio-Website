@@ -34,8 +34,9 @@
 }
 
 .program-img {
+  padding-top: 20px;
   width: 6vw;
-  height: 10vh;
+  height: 13vh;
   transition: transform 0.5s ease-in-out;
 }
 
@@ -50,4 +51,8 @@
   font-size: 1.5rem;
   padding-top: 30px;
   color: #122620;
+}
+
+.program-item::marker {
+  content: "";
 }
