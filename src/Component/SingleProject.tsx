@@ -1,5 +1,7 @@
+import ImageSlider from "./ImageSlider";
+
 type ProjectProps = {
-  images: string;
+  images: string[];
   title: string;
   description: string;
   info: string;
@@ -11,7 +13,7 @@ const SingleProject = (props: ProjectProps) => {
     <div className="individual-project">
       <div className="individual-project-item">
         <div className="project-images">
-          <img src={props.images} alt={props.title} height={400} width={400} />
+          <ImageSlider imageURLs={props.images}></ImageSlider>
         </div>
         <div className="individual-project-info">
           <h4>

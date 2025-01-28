@@ -54,17 +54,6 @@
   align-self: start;
 }
 
-/* .imageslider {
-  align-items: center;
-  justify-content: center;
-} */
-
-/* .images {
-  display: flex;
-  width: 125%;
-  height: 125%;
-} */
-
 .slider {
   position: absolute;
   background-color: azure;

@@ -16,6 +16,11 @@ const Projects = () => {
     slidesToShow: 2,
     slidesToScroll: 1,
   };
+  const firstProjectImages = [
+    "./public/media/images/arpan-laptop.png",
+    "./public/media/images/arpan-lake.png",
+    "./public/media/images/arpan-traditional.png",
+  ];
 
   return (
     <>
@@ -26,7 +31,7 @@ const Projects = () => {
           <div className="project-list">
             <Slider {...settings}>
               <SingleProject
-                images="public\media\images\arpan-lake.png"
+                images={firstProjectImages}
                 title="First title"
                 subheading="Four word project description"
                 description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium porro soluta facere aperiam iusto pariatur officiis distinctio tempore odit necessitatibus?"
@@ -34,7 +39,7 @@ const Projects = () => {
               ></SingleProject>
 
               <SingleProject
-                images="public\media\images\arpan-lake.png"
+                images={firstProjectImages}
                 title="Second title"
                 subheading="Four word project description"
                 description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium porro soluta facere aperiam iusto pariatur officiis distinctio tempore odit necessitatibus?"
@@ -42,7 +47,7 @@ const Projects = () => {
               ></SingleProject>
 
               <SingleProject
-                images="public\media\images\arpan-lake.png"
+                images={firstProjectImages}
                 title="Third title"
                 subheading="Four word project description"
                 description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium porro soluta facere aperiam iusto pariatur officiis distinctio tempore odit necessitatibus?"
@@ -50,16 +55,8 @@ const Projects = () => {
               ></SingleProject>
 
               <SingleProject
-                images="public\media\images\arpan-lake.png"
+                images={firstProjectImages}
                 title="Fourth title"
-                subheading="Four word project description"
-                description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium porro soluta facere aperiam iusto pariatur officiis distinctio tempore odit necessitatibus?"
-                info="http://github.com/"
-              ></SingleProject>
-
-              <SingleProject
-                images="public\media\images\arpan-lake.png"
-                title="Fifth title"
                 subheading="Four word project description"
                 description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium porro soluta facere aperiam iusto pariatur officiis distinctio tempore odit necessitatibus?"
                 info="http://github.com/"

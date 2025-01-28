@@ -86,3 +86,8 @@
   /* Change font family */
   font-family: "Times New Roman", Times, serif;
 }
+
+.project-images img {
+  width: 50vh;
+  height: 50vh;
+}
