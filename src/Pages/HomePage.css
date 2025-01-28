@@ -54,37 +54,20 @@
   align-self: start;
 }
 
-.imageslider {
+/* .imageslider {
   align-items: center;
   justify-content: center;
-}
+} */
 
-.images {
+/* .images {
   display: flex;
   width: 125%;
   height: 125%;
-}
+} */
 
 .slider {
   position: absolute;
   background-color: azure;
   display: flex;
   justify-content: center;
-}
-.dot-container {
-  display: flex;
-  justify-content: center;
-}
-
-.dot {
-  height: 20px;
-  width: 20px;
-  margin: 0 2px;
-  background-color: #fefefe;
-  border-radius: 50%;
-}
-
-.active,
-.dot:hover {
-  background-color: #717171;
 }

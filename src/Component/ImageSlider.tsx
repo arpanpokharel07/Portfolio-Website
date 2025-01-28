@@ -1,21 +1,23 @@
+import Carousel from "react-bootstrap/Carousel";
+
 type ImageSliderProps = {
   imageURLs: string[]; // Array of image URLs to be displayed in the slider.
 };
 
-const ImageSlider = ({ imageURLs }: ImageSliderProps) => {
+function ImageSlider({ imageURLs }: ImageSliderProps) {
   return (
-    <div className="imageslider">
-      <div className="images">
-        <img key={0} src={imageURLs[0]} />
-        {/* <img key={1} src={imageURLs[1]} /> */}
-      </div>
-      <div className="dot-container">
-        <span className="dot"></span>
-        <span className="dot"></span>
-        <span className="dot"></span>
-      </div>
-    </div>
+    <Carousel>
+      <Carousel.Item interval={5000}>
+        <img src={imageURLs[0]} />
+      </Carousel.Item>
+      <Carousel.Item interval={5000}>
+        <img src={imageURLs[1]} />
+      </Carousel.Item>
+      <Carousel.Item interval={5000}>
+        <img src={imageURLs[2]} />
+      </Carousel.Item>
+    </Carousel>
   );
-};
+}
 
 export default ImageSlider;

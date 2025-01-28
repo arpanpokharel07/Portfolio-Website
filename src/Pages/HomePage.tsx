@@ -1,6 +1,5 @@
 import "./HomePage.css";
 import ImageSlider from "../Component/ImageSlider";
-import * as Icons from "react-bootstrap-icons";
 import Header from "../Component/Header";
 import Footer from "../Component/Footer";
 
