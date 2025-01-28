@@ -4,7 +4,7 @@
   /* background-color: #122620; */
   padding: 0;
   margin: 0;
-  color: #DDA15E;
+  color: #dda15e;
   font-family: "Montagu Slab", serif;
 }
 .background-video {
@@ -17,6 +17,7 @@ video {
   filter: blur(7px);
   object-fit: cover;
   transform: scale(1.04);
+  height: 120vh;
 }
 
 .aboutMe-main-info {
@@ -28,7 +29,7 @@ video {
   padding: 25px;
   background-color: #1226204b;
   position: absolute;
-  top: 115vh;
+  top: 15vh;
 }
 
 .aboutMe-main-info h1 {
@@ -52,5 +53,5 @@ video {
 }
 
 caption {
-  color: #FEFAE0;
+  color: #fefae0;
 }
