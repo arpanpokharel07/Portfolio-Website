@@ -58,13 +58,15 @@
 .each-experience .bullet {
   position: absolute;
   left: 15px;
-  top: 0;
-  height: 30px;
-  width: 30px;
-  background-color: #fefae0;
-  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  background-color: #122620;
 }
 
 .each-experience .job-header .company .location {
   color: #fefae0;
+}
+
+.each-experience icons {
+  background-color: red;
 }

@@ -1,3 +1,5 @@
+import * as Icons from "react-bootstrap-icons";
+
 type EachExperienceProps = {
   startYear: string;
   endYear: string;
@@ -10,7 +12,9 @@ type EachExperienceProps = {
 const EachExperience = (props: EachExperienceProps) => {
   return (
     <div className="each-experience">
-      <div className="bullet"></div>
+      <div className="bullet">
+        <Icons.BriefcaseFill size={35} />
+      </div>
       <h6 className="timeline-date">
         {props.startYear} - {props.endYear}
       </h6>
