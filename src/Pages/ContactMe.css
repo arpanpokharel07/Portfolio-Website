@@ -29,7 +29,7 @@
   border-radius: 40px;
 }
 
-label {
+.form label {
   margin: 10px;
   font-size: 1.5rem;
 }
@@ -39,26 +39,36 @@ label {
   padding-left: 20px;
 }
 
-input {
+.form input {
   padding: 10px;
   border-radius: 15px;
   font-size: 1.5rem;
 }
 
-textarea {
+.form textarea {
   border-radius: 15px;
+  resize: none;
+  height: 200px;
+  padding: 10px;
+  font-size: 1.25rem;
 }
 
 .form button {
+  width: 100%;
+  height: 55px;
   border-radius: 15px;
   padding: 10px;
   background-color: #fefae0;
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.9);
+  cursor: pointer;
   color: #122620;
   font-size: 1.25rem;
+  transition: 0.25s;
 }
 
 .form button:hover {
   color: #fefae0;
   background-color: #122620;
   border: 1px solid #dda15e;
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.9);
 }
