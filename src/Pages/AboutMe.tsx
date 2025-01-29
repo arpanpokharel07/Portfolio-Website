@@ -31,19 +31,22 @@ function AboutMe() {
           <div className="about-me-column">
             <div className="about-me-column-first">
               <p>
-                I began my coding journey in 2016 with HTML and CSS, laying the
-                foundation for web development. During the COVID pandemic, I
-                explored Python, diving into its versatility. By 2021, I was
-                honing my skills with C and C++ through education, and in 2022,
-                I embraced JavaScript to create dynamic applications.
+                I am a dedicated full-stack developer with expertise in building
+                modern web applications and backend systems. Proficient in
+                technologies like React, Node.js, ASP.NET, and MySQL, I focus on
+                writing clean, efficient, and scalable code. My experience spans
+                frontend, backend, databases, and cloud services, allowing me to
+                create seamless, high-performance applications.
               </p>
             </div>
             <div className="about-me-column-second">
               <p>
-                using C, C++, C#, JavaScript, React, Node.js, MongoDB, and
-                MySQL. I specialize in creating reliable applications across
-                front-end and back-end systems. I’m a Full-Stack Developer with
-                expertise in software development
+                Passionate about continuous learning, I actively explore new
+                technologies and refine my skills through hands-on projects. My
+                ability to adapt and solve technical challenges makes me a
+                valuable addition to any development team. I am eager to
+                contribute and grow in a professional software engineering
+                environment.
               </p>
             </div>
           </div>
@@ -55,5 +58,3 @@ function AboutMe() {
 }
 
 export default AboutMe;
-
-
