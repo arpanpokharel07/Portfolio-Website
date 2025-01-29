@@ -54,13 +54,10 @@
 .each-education .bullet {
   position: absolute;
   left: 15px;
-  top: 0;
   height: 30px;
   width: 30px;
-  background-color: #fefae0;
+  background-color: #122620;
   border-radius: 50%;
-  align-items: center;
-  justify-content: center;
 }
 
 .each-education .education-header .institution span {

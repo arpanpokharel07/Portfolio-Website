@@ -1,3 +1,5 @@
+import * as Icons from "react-bootstrap-icons";
+
 type EachEducationProps = {
   startYear: string;
   endYear: string;
@@ -10,7 +12,9 @@ type EachEducationProps = {
 const EachEducation = (props: EachEducationProps) => {
   return (
     <div className="each-education">
-      <div className="bullet"></div>
+      <div className="bullet">
+        <Icons.Mortarboard size={35} />
+      </div>
       <h6 className="timeline-date">
         {props.startYear} - {props.endYear}
       </h6>
