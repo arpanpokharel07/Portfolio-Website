@@ -83,11 +83,12 @@
 .detailed-info a {
   color: #ffffff;
   font-size: 1.25em;
+  text-decoration: none;
   /* Change font family */
   font-family: "Times New Roman", Times, serif;
 }
 
 .project-images img {
-  width: 50vh;
-  height: 50vh;
+  width: 70vh;
+  height: 35vh;
 }
