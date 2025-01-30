@@ -7,15 +7,11 @@ type ImageSliderProps = {
 function ImageSlider({ imageURLs }: ImageSliderProps) {
   return (
     <Carousel>
-      <Carousel.Item interval={5000}>
-        <img src={imageURLs[0]} />
-      </Carousel.Item>
-      <Carousel.Item interval={5000}>
-        <img src={imageURLs[1]} />
-      </Carousel.Item>
-      <Carousel.Item interval={5000}>
-        <img src={imageURLs[2]} />
-      </Carousel.Item>
+      {imageURLs.map((src, index) => (
+        <Carousel.Item key={index} interval={5000}>
+          <img src={src} />
+        </Carousel.Item>
+      ))}
     </Carousel>
   );
 }
