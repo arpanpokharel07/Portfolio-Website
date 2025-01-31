@@ -4,8 +4,8 @@ import Header from "../Component/Header";
 import Footer from "../Component/Footer";
 
 const images = [
-  "./public/media/images/arpan-laptop.png",
   "./public/media/images/arpan-lake.png",
+  "./public/media/images/arpan-laptop.png",
   "./public/media/images/arpan-traditional.png",
 ];
 
