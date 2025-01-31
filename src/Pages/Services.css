@@ -3,7 +3,7 @@
   margin: 0;
   background-color: #122620;
   color: #dda15e;
-  padding-bottom: 40px;
+  padding-bottom: 50px;
 }
 
 .services h1 {
@@ -23,19 +23,50 @@
 .service-list {
   display: grid;
   gap: 40px;
-  grid-template-columns: repeat(2, 40vw);
+  grid-template-columns: repeat(3, 30vw);
   justify-items: center;
 }
 
 .single-service .info {
-  margin: 5% 10% 0% 0%;
-  padding: 0% 10%;
+  margin: 0;
+  padding: 0% 5%;
+  text-align: justify;
 }
 
 .single-service p {
-  margin-top: 5%;
-  font-size: 1.5rem;
+  margin-top: 2.5%;
+  font-size: 1.25rem;
 }
 .single-service h4 {
-  font-size: 2.5rem;
+  font-size: 2rem;
+  text-align: center;
+  color: #fefae0;
+}
+
+.single-service .logo {
+  height: 7.5vh;
+  width: 7.5vh;
+  border-radius: 50%;
+  margin: 0 auto 0.5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease-in-out;
+}
+
+.single-service-item {
+  background-color: #122620;
+  border: 3px solid #283618;
+  border-radius: 10px;
+  padding-top: 15px;
+  transition: all 0.3s ease-in-out;
+}
+
+.single-service-item:hover {
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+.single-service-item:hover .logo {
+  background: #dda15e;
+  color: #283618;
 }
