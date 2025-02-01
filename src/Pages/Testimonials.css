@@ -21,7 +21,7 @@
 
 .testimonial-list {
   display: grid;
-  gap: 25px;
+  gap: 50px;
   grid-template-columns: repeat(3, 25vw);
 }
 
@@ -31,22 +31,40 @@
 
 .testimony-header {
   display: grid;
-  grid-template-columns: repeat(3, 8.5vw);
+  grid-template-columns: 12fr;
   align-items: center;
 }
 
 .individual-testimony {
   border: 2px solid black;
-  padding: 5px;
+  padding: 20px;
   align-items: center;
+  border-bottom-right-radius: 50%;
+  border-top-right-radius: 25%;
+  border-top-left-radius: 25%;
 }
 
 .individual-name {
+  display: inline;
+  margin-left: 10px;
   font-size: 1.45em;
+  position: relative;
+
+  left: 50%;
+}
+
+.testimony-description {
+  text-align: justify;
+}
+
+.testimony-img {
+  display: inline;
+  position: relative;
+  top: 45%;
+  left: -25%;
 }
 
 .testimony-stars {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  text-align: right;
+  margin: 5px 25px;
 }

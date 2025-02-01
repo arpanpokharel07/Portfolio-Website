@@ -1,6 +1,7 @@
 import Footer from "../Component/Footer";
 import IndividualTestimony from "../Component/IndividualTestimony";
 import "./Testimonials.css";
+
 const Testimonials = () => {
   return (
     <>
@@ -19,14 +20,14 @@ const Testimonials = () => {
               image="public/media/images/stock-1.jpg"
               name="Aaron Mayer"
               testimony=" Arpan Pokharel approaches software development with a structured and logical mindset. He quickly understands project requirements, writes clean and maintainable code, and is always open to learning new technologies. His knowledge of backend technologies like Express.js, ASP.NET, and GraphQL allows him to create efficient APIs that integrate seamlessly with front-end frameworks. He would be a great asset to any development team."
-              star={4}
+              star={5}
             ></IndividualTestimony>
 
             <IndividualTestimony
               image="public/media/images/stock-3.jpg"
               name="Jones Mora"
               testimony=" Working with Mr. Pokharel has been a great experience. He is dedicated, detail-oriented, and always eager to improve his skills. Whether it's debugging complex issues or optimizing application performance, he takes the initiative to find the best solutions. His understanding of cloud platforms like AWS and Docker shows that he's ready to contribute to modern DevOps practices as well."
-              star={4}
+              star={5}
             ></IndividualTestimony>
 
             <IndividualTestimony
