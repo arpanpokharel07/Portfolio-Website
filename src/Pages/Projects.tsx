@@ -8,16 +8,16 @@ import Slider from "react-slick";
 
 //const imagesList = ["Merlin", "FilmyBox", "Ecometrix", "Quiz"];
 const firstProjectImages = [
-  "./public/media/images/firstProject-1.png",
-  "./public/media/images/firstProject-2.png",
-  "./public/media/images/firstProject-3.png",
-  "./public/media/images/firstProject-4.png",
-  "./public/media/images/firstProject-5.png",
+  "/media/images/firstProject-1.png",
+  "/media/images/firstProject-2.png",
+  "/media/images/firstProject-3.png",
+  "/media/images/firstProject-4.png",
+  "/media/images/firstProject-5.png",
 ];
 const firstProjectLanguages = [
-  "./public/media/logos/typescript.png",
-  "./public/media/logos/javascript.png",
-  "./public/media/logos/css3.png",
+  "/media/logos/typescript.png",
+  "/media/logos/javascript.png",
+  "/media/logos/css3.png",
 ];
 
 const secondProjectImages = [
@@ -31,10 +31,10 @@ const secondProjectImages = [
   "/media/images/secondProject-8.jpeg",
 ];
 const secondProjectLanguages = [
-  "./public/media/logos/typescript.png",
-  "./public/media/logos/css3.png",
-  "./public/media/logos/html5.png",
-  "./public/media/logos/javascript.png",
+  "/media/logos/typescript.png",
+  "/media/logos/css3.png",
+  "/media/logos/html5.png",
+  "/media/logos/javascript.png",
 ];
 
 const Projects = () => {
