@@ -14,6 +14,12 @@ const firstProjectImages = [
   "./public/media/images/firstProject-4.png",
   "./public/media/images/firstProject-5.png",
 ];
+const firstProjectLanguages = [
+  "./public/media/logos/typescript.png",
+  "./public/media/logos/javascript.png",
+  "./public/media/logos/css3.png",
+];
+
 const secondProjectImages = [
   "/media/images/secondProject-1.jpeg",
   "/media/images/secondProject-2.jpeg",
@@ -23,6 +29,12 @@ const secondProjectImages = [
   "/media/images/secondProject-6.jpeg",
   "/media/images/secondProject-7.jpeg",
   "/media/images/secondProject-8.jpeg",
+];
+const secondProjectLanguages = [
+  "./public/media/logos/typescript.png",
+  "./public/media/logos/css3.png",
+  "./public/media/logos/html5.png",
+  "./public/media/logos/javascript.png",
 ];
 
 const Projects = () => {
@@ -45,7 +57,7 @@ const Projects = () => {
               <SingleProject
                 images={firstProjectImages}
                 title="Portfolio Website"
-                subheading="React-CSS-TypeScript"
+                subheading={firstProjectLanguages}
                 description="The Portfolio Website showcases my skills, projects, and experience as a full-stack developer. Built with React.js, TypeScript, and Tailwind CSS, it features a responsive design, project highlights, testimonials, and a contact form. Optimized for performance, it reflects my expertise in front-end development, UI/UX design, and efficient deployment."
                 info="https://github.com/arpanpokharel07/Portfolio-Website"
               ></SingleProject>
@@ -53,7 +65,7 @@ const Projects = () => {
               <SingleProject
                 images={secondProjectImages}
                 title="FilmyBox"
-                subheading="TypeScript-JavaScript-CSS"
+                subheading={secondProjectLanguages}
                 description="FilmyBox is a streaming platform designed to deliver a personalized, accessible, and engaging viewing experience worldwide. With advanced features and a well-planned marketing strategy, it aims to revolutionize the movie industry, capture a significant market share, and uphold high standards for both users and stakeholders."
                 info="https://github.com/JayminSenpai2884/FilmyBox"
               ></SingleProject>

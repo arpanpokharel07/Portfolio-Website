@@ -67,7 +67,7 @@
   padding-bottom: 0;
   /* Change font family */
 }
-.individual-project-info span {
+.individual-project-info .progLang {
   font-size: 1.05rem;
 }
 
@@ -91,4 +91,11 @@
 .project-images img {
   width: 70vh;
   height: 35vh;
+}
+
+.individual-project-info .progLang {
+  display: flex;
+  padding-top: 5px;
+  height: 35px;
+  width: 35px;
 }

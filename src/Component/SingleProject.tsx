@@ -5,7 +5,7 @@ type ProjectProps = {
   title: string;
   description: string;
   info: string;
-  subheading: string;
+  subheading: string[];
 };
 
 const SingleProject = (props: ProjectProps) => {
@@ -17,7 +17,12 @@ const SingleProject = (props: ProjectProps) => {
         </div>
         <div className="individual-project-info">
           <h4>
-            {props.title} <span>{props.subheading}</span>
+            {props.title}
+            <span className="progLang">
+              {props.subheading.map((src, index) => (
+                <img src={src} key={index} />
+              ))}
+            </span>
           </h4>
 
           <p>{props.description}</p>
