@@ -32,7 +32,7 @@ function Header() {
       </div>
 
       <div className="resume">
-        <a href="/files/Arpan_Pokharel_Resume.pdf" download>
+        <a href="./public/files/Arpan_Pokharel_Resume.pdf" download>
           <button type="button" className="btn btn-success">
             RESUME DOWNLOAD &nbsp;
             <Icons.FileEarmarkArrowDown size={25}>
