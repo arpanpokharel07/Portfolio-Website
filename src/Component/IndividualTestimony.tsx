@@ -4,6 +4,7 @@ import * as Icons from "react-bootstrap-icons";
 type TestimonyProps = {
   image: string;
   name: string;
+  posCompany: string;
   testimony: string;
   star: Number;
 };
@@ -22,7 +23,9 @@ const IndividualTestimony = (props: TestimonyProps) => {
         </div>
         <div className="testimony-img">
           <img src={props.image} alt={props.image} width={75} height={75} />
-          <div className="individual-name">{props.name}</div>
+          <div className="individual-name">
+            {props.name} <br /> - {props.posCompany}
+          </div>
         </div>
       </div>
     </div>

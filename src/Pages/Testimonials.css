@@ -1,9 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&family=Montagu+Slab:opsz,wght@16..144,100..700&family=Uncial+Antiqua&display=swap");
 .testimonials {
   padding: 0;
   margin: 0;
   background-color: #122620;
   color: #dda15e;
-  padding-bottom: 40px;
+  padding-bottom: 80px;
 }
 
 .testimonials h1 {
@@ -21,12 +22,15 @@
 
 .testimonial-list {
   display: grid;
-  gap: 50px;
+  gap: 75px;
   grid-template-columns: repeat(3, 25vw);
 }
 
 .testimony-header img {
   border-radius: 50%;
+  left: -25%;
+  width: 75px;
+  height: 75px;
 }
 
 .testimony-header {
@@ -36,35 +40,45 @@
 }
 
 .individual-testimony {
-  border: 2px solid black;
+  position: relative;
+  border: 2px solid #74736f;
   padding: 20px;
   align-items: center;
   border-bottom-right-radius: 50%;
-  border-top-right-radius: 25%;
-  border-top-left-radius: 25%;
+  border-top-right-radius: 50%;
+  border-top-left-radius: 50%;
+  height: 35vh;
+  overflow: visible;
+  font-family: "Montagu Slab", serif;
 }
 
 .individual-name {
   display: inline;
   margin-left: 10px;
+  margin-bottom: 30px;
   font-size: 1.45em;
+  width: 159px;
+  height: 70px;
   position: relative;
-
-  left: 50%;
+  left: 10%;
+  font-size: 1rem;
 }
 
 .testimony-description {
+  padding: 25px 25px;
   text-align: justify;
+  color: #dad7cd;
 }
 
 .testimony-img {
-  display: inline;
-  position: relative;
-  top: 45%;
-  left: -25%;
+  position: absolute;
+  bottom: -20px;
+  left: -20%;
+  display: flex;
+  align-items: center;
 }
 
 .testimony-stars {
-  text-align: right;
+  text-align: center;
   margin: 5px 25px;
 }

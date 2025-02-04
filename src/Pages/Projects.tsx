@@ -14,6 +14,16 @@ const firstProjectImages = [
   "./public/media/images/firstProject-4.png",
   "./public/media/images/firstProject-5.png",
 ];
+const secondProjectImages = [
+  "/media/images/secondProject-1.jpeg",
+  "/media/images/secondProject-2.jpeg",
+  "/media/images/secondProject-3.jpeg",
+  "/media/images/secondProject-4.jpeg",
+  "/media/images/secondProject-5.jpeg",
+  "/media/images/secondProject-6.jpeg",
+  "/media/images/secondProject-7.jpeg",
+  "/media/images/secondProject-8.jpeg",
+];
 
 const Projects = () => {
   const settings = {
@@ -23,12 +33,6 @@ const Projects = () => {
     slidesToShow: 2,
     slidesToScroll: 1,
   };
-
-  const secondProjectImages = [
-    "./public/media/images/arpan-laptop.png",
-    "./public/media/images/arpan-lake.png",
-    "./public/media/images/arpan-traditional.png",
-  ];
 
   return (
     <>
@@ -42,16 +46,16 @@ const Projects = () => {
                 images={firstProjectImages}
                 title="Portfolio Website"
                 subheading="React-CSS-TypeScript"
-                description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium porro soluta facere aperiam iusto pariatur officiis distinctio tempore odit necessitatibus?"
+                description="The Portfolio Website showcases my skills, projects, and experience as a full-stack developer. Built with React.js, TypeScript, and Tailwind CSS, it features a responsive design, project highlights, testimonials, and a contact form. Optimized for performance, it reflects my expertise in front-end development, UI/UX design, and efficient deployment."
                 info="https://github.com/arpanpokharel07/Portfolio-Website"
               ></SingleProject>
 
               <SingleProject
                 images={secondProjectImages}
-                title="Second title"
-                subheading="Four word project description"
-                description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium porro soluta facere aperiam iusto pariatur officiis distinctio tempore odit necessitatibus?"
-                info="http://github.com/"
+                title="FilmyBox"
+                subheading="TypeScript-JavaScript-CSS"
+                description="FilmyBox is a streaming platform designed to deliver a personalized, accessible, and engaging viewing experience worldwide. With advanced features and a well-planned marketing strategy, it aims to revolutionize the movie industry, capture a significant market share, and uphold high standards for both users and stakeholders."
+                info="https://github.com/JayminSenpai2884/FilmyBox"
               ></SingleProject>
             </Slider>
           </div>
