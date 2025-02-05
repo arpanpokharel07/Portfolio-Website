@@ -34,7 +34,10 @@ const secondProjectLanguages = [
   "/media/logos/typescript.png",
   "/media/logos/css3.png",
   "/media/logos/html5.png",
+  "/media/logos/mongodb.png",
+  "/media/logos/express.png",
   "/media/logos/javascript.png",
+  "/media/logos/nodejs.png",
 ];
 
 const Projects = () => {
@@ -67,7 +70,7 @@ const Projects = () => {
                 title="FilmyBox"
                 subheading={secondProjectLanguages}
                 description="FilmyBox is a streaming platform designed to deliver a personalized, accessible, and engaging viewing experience worldwide. With advanced features and a well-planned marketing strategy, it aims to revolutionize the movie industry, capture a significant market share, and uphold high standards for both users and stakeholders."
-                info="https://github.com/JayminSenpai2884/FilmyBox"
+                info="https://www.linkedin.com/posts/jayminparmar2884_introducing-filmybox-our-capstone-project-activity-7185726800189128705-ehPf/?utm_source=share&utm_medium=member_desktop"
               ></SingleProject>
             </Slider>
           </div>
