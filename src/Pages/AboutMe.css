@@ -16,8 +16,8 @@ video {
   object-fit: cover;
   filter: blur(7px);
   object-fit: cover;
-  transform: scale(1.04);
-  height: 120vh;
+  transform: scale(1.02);
+  height: 130vh;
 }
 
 .aboutMe-main-info {
@@ -30,15 +30,16 @@ video {
   background-color: #1226204b;
   position: absolute;
   top: 15vh;
+  padding-bottom: 5px;
 }
 
 .aboutMe-main-info h1 {
-  font-size: 3.5em;
+  font-size: 3.25em;
 }
 
 .aboutMe-main-info h3 {
-  font-size: 1.95em;
-  padding-bottom: 3.5vh;
+  font-size: 1.85em;
+  padding-bottom: 2.5vh;
 }
 
 .about-me-column {
@@ -49,7 +50,7 @@ video {
 
 .about-me-column-first p,
 .about-me-column-second p {
-  font: 1.12rem;
+  font: 1rem;
 }
 
 caption {

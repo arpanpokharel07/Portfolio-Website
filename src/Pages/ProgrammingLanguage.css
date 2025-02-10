@@ -16,7 +16,7 @@
 
 .program {
   display: grid;
-  grid-template-columns: repeat(7, 225px);
+  grid-template-columns: repeat(7, 200px);
   gap: 20px;
   justify-content: center;
 }

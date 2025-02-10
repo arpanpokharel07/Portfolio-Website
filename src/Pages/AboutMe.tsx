@@ -20,7 +20,7 @@ function AboutMe() {
           <img
             src="/media/images/arpan-laptop.png"
             alt="Arpan pokharel"
-            width={400}
+            width={350}
           />
           <caption>Meet Your Programmer</caption>
           <h3>

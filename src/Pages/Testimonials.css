@@ -28,7 +28,8 @@
 
 .testimony-header img {
   border-radius: 50%;
-  left: -25%;
+  position: relative;
+  left: -5%;
   width: 75px;
   height: 75px;
 }
@@ -47,7 +48,7 @@
   border-bottom-right-radius: 50%;
   border-top-right-radius: 50%;
   border-top-left-radius: 50%;
-  height: 35vh;
+  height: 50vh;
   overflow: visible;
   font-family: "Montagu Slab", serif;
 }
@@ -72,7 +73,7 @@
 
 .testimony-img {
   position: absolute;
-  bottom: -20px;
+  bottom: -25px;
   left: -20%;
   display: flex;
   align-items: center;
