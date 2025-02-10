@@ -95,7 +95,7 @@
 
 .individual-project-info .progLang {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   padding-top: 5px;
   height: 35px;
   width: 35px;
